@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto:wght@100;300;500&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.content-container h1 {
+    color: hsla(360, 100%, 100%, 1);
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.content-container p{
+    font-family: 'Roboto', sans-serif;
+    color: hsla(360, 100%, 100%, 1);
+    font-size: 20px;
+    padding: 18px 0px 15px 0px;
+    font-weight: 100;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    color: hsla(360, 100%, 100%, 1);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    color: hsla(360, 100%, 100%, 1);
+    text-decoration: none;
+    font-weight: 100;
+
+}
+/* --------------------- 2.3. Intro-Section ---------------------- */
+.intro {
+    text-align: center;
+    color:hsla(259, 62%, 53%, 1);
+}
+.intro-block-contact p {
+    color: hsl(0, 0%, 0%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.intro-block-contact a {
+    color:hsla(259, 62%, 53%, 1);
+    font-weight: 400;
+    text-decoration: none;
+}

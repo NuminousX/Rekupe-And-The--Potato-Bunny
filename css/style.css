@@ -1,0 +1,102 @@
+/* ------------------------------- 1. Global Styles -------------------------------- */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+     display: flex;
+     flex-direction: column;
+
+ }
+/* ------------------------------- 2. Content -------------------------------- */
+
+/* --------------------- 2.1. Navbar ---------------------- */
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+ul {
+    padding-top: 20px;
+    flex-basis: 366px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding: 0px 30px 0px 0px; /* top -> right -> bottom -> left */
+
+}
+
+
+/* --------------------- 2.2. Header ---------------------- */
+
+header {
+    background: linear-gradient(to right, hsla(241, 75%, 58%, 1), hsla(259, 72%, 47%, 1));
+    position: relative;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 110px 0px 120px 0px;
+
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 25px 0px;
+    flex-basis: 715px;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+button {
+    background-color: hsla(337, 83%, 60%, 1);
+    box-shadow: 0px 8px 15px hsla(0, 0%, 0%, 0.28);
+    padding: 20px 40px 20px 40px;
+    border-radius: 100px;
+    margin: 20px;
+    border: none;
+}
+
+
+.squiggle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 70px;
+    left: calc(50% - 15px);
+}
+/* --------------------- 2.3. Intro-Section ---------------------- */
+.content-box-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.intro {
+    display: inline-block;
+    flex-basis: 768px;
+}
+
+.intro-block {
+    margin: 0px 0px 35px;
+}
+
+.intro-block-contact {
+    margin: 70px 0px 0px;
+}
+
+
